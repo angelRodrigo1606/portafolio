@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Angel R Culquechicon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+  <script type="module" src="app.js"></script>
+  <!-- Navegación -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="logo">Alex Rivera</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hola, soy <span class="highlight">Angel Rodrigo Culquechicon Fernandez</span></h1>
+        <p>Desarrollador Full Stack apasionado por crear experiencias digitales excepcionales. Especializado en
+          tecnologías modernas y soluciones innovadoras.</p>
+        <div class="cta-buttons">
+          <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+          <a href="#contacto" class="btn btn-secondary">Contactar</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="code-window">
+          <div class="code-header">
+            <div class="code-dot dot-red"></div>
+            <div class="code-dot dot-yellow"></div>
+            <div class="code-dot dot-green"></div>
+          </div>
+          <div class="code-content">
+            <div class="code-line">
+              <span class="keyword">const</span> <span class="function">developer</span> = {
+            </div>
+            <div class="code-line">
+              &nbsp;&nbsp;name: <span class="string">'Angel Rodrigo Culquechicon Fernandez'</span>,
+            </div>
+            <div class="code-line">
+              &nbsp;&nbsp;skills: [<span class="string">'React'</span>, <span class="string">'Node.js'</span>, <span
+                class="string">'Python'</span>],
+            </div>
+            <div class="code-line">
+              &nbsp;&nbsp;passion: <span class="string">'Code e Innovation'</span>
+            </div>
+            <div class="code-line">
+              };
+            </div>
+            <div class="code-line">
+              <span class="comment">// Creando el futuro, una línea a la vez</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="fade-in">
+    <div class="section-header">
+      <h2>Proyectos Destacados</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-header">
+          <div>
+            <h3 class="project-title">E-Commerce Platform</h3>
+          </div>
+          <div class="project-icon">🛒</div>
+        </div>
+        <p class="project-description">
+          Plataforma de comercio electrónico completa con panel de administración, pasarela de pagos integrada, gestión
+          de inventario en tiempo real y analytics avanzados. Desarrollada con arquitectura de microservicios para
+          escalabilidad óptima.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">MongoDB</span>
+          <span class="tech-tag">Stripe</span>
+          <span class="tech-tag">Docker</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="link-btn link-demo">Ver Demo</a>
+          <a href="#" class="link-btn link-code">Ver Código</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div>
+            <h3 class="project-title">AI Task Manager</h3>
+          </div>
+          <div class="project-icon">🤖</div>
+        </div>
+        <p class="project-description">
+          Aplicación de gestión de tareas inteligente que utiliza machine learning para priorizar automáticamente las
+          tareas, predecir tiempos de finalización y optimizar la productividad del usuario mediante análisis de
+          patrones de trabajo.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">TensorFlow</span>
+          <span class="tech-tag">FastAPI</span>
+          <span class="tech-tag">PostgreSQL</span>
+          <span class="tech-tag">Vue.js</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="link-btn link-demo">Ver Demo</a>
+          <a href="#" class="link-btn link-code">Ver Código</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div>
+            <h3 class="project-title">Real-Time Chat App</h3>
+          </div>
+          <div class="project-icon">💬</div>
+        </div>
+        <p class="project-description">
+          Aplicación de chat en tiempo real con salas privadas, videollamadas, compartir archivos, cifrado end-to-end y
+          modo offline. Soporta miles de usuarios concurrentes con arquitectura escalable y redis para caching.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Socket.io</span>
+          <span class="tech-tag">Express</span>
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Redis</span>
+          <span class="tech-tag">WebRTC</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="link-btn link-demo">Ver Demo</a>
+          <a href="#" class="link-btn link-code">Ver Código</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div>
+            <h3 class="project-title">Crypto Portfolio Tracker</h3>
+          </div>
+          <div class="project-icon">📊</div>
+        </div>
+        <p class="project-description">
+          Dashboard avanzado para tracking de criptomonedas con gráficos interactivos, alertas de precio
+          personalizables, análisis técnico automatizado y portfolio diversification insights. Integra con múltiples
+          exchanges via API.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Next.js</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">D3.js</span>
+          <span class="tech-tag">Prisma</span>
+          <span class="tech-tag">AWS</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="link-btn link-demo">Ver Demo</a>
+          <a href="#" class="link-btn link-code">Ver Código</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre Mí -->
+  <section id="sobre-mi" class="fade-in">
+    <div class="section-header">
+      <h2>Sobre Mí</h2>
+    </div>
+    <div class="about-content">
+      <div class="about-image">
+        👨‍💻
+      </div>
+      <div class="about-text">
+        <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem;">
+          Soy un desarrollador junior apasionado por el mundo del desarrollo Full Stack y actualmente estudio en ISIL. Me encanta aprender nuevas tecnologías y mejorar mis habilidades día a día, siempre buscando escribir código claro y funcional.
+        </p>
+        <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+          Me interesa tanto la experiencia del usuario como la lógica detrás del backend. Disfruto enfrentando proyectos que me retan a pensar de forma creativa y me permiten aplicar lo que voy aprendiendo en clase y por cuenta propia.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h4>Frontend</h4>
+            <ul class="skill-list">
+              <li>React & Next.js</li>
+              <li>Vue.js & Nuxt.js</li>
+              <li>TypeScript</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h4>Backend</h4>
+            <ul class="skill-list">
+              <li>Node.js & Express</li>
+              <li>Python & FastAPI</li>
+              <li>PostgreSQL & MongoDB</li>
+              <li>Redis & Docker</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="fade-in">
+    <div class="section-header">
+      <h2>Contacto</h2>
+      <p>¿Tienes un proyecto en mente? Me encantaría escuchar sobre tu idea y cómo puedo ayudarte a hacerla realidad.
+      </p>
+    </div>
+    <div class="contact-content">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <img src="public/gmail.svg" alt="icono de correo electrónico" width="22" height="22">
+          </div>
+          <div>
+            <h4>Email</h4>
+            <p style="color: var(--text-secondary);">angelrodrigo160606@gamil.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <img src="public/telefono.svg" alt="icono de teléfono" width="22" height="22">
+          </div>
+          <div>
+            <h4>Teléfono</h4>
+            <p style="color: var(--text-secondary);">Whatsapp</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <img src="public/ubicacion.svg" alt="icono de ubicación" width="22" height="22">
+          </div>
+          <div>
+            <h4>Ubicación</h4>
+            <p style="color: var(--text-secondary);">Lima, Perú</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <img src="public/linkedin.svg" alt="icono de LinkedIn" width="22" height="22">
+          </div>
+          <div>
+            <h4>LinkedIn</h4>
+            <p style="color: var(--text-secondary);">linkedin.com/in/alexrivera</p>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" method="post">
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Asunto</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Angel Rodrigo Culquechicon Fernandez. Derechos reservados.</p>
+  </footer>
+</body>
+
+</html>
