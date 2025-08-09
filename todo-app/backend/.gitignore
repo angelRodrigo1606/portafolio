@@ -1,0 +1,3 @@
+.env
+#la carta de node_modules
+node_modules/
